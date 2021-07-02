@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+    /* nav바에 대한 코드*/
+        .nav-container {
+            background-color: rgb(51, 51, 51);
+            display: flex;
+            height: 46px;
+            text-align: center;
+            /*margin: 0 auto;*/
+            align-items: center;
+            /*justify-content: center;*/
+        }
+
+        .nav_logo_left1 {
+            background-color: #f50;
+            color: white;
+            padding-right: 50px;
+            margin-left: 331.500px;
+        }
+     
+        .nav_list{
+            color: white;
+            padding-right: 50px;
+
+        }
+        .nav_list1{
+            background-color:#111;
+            color: white;
+            padding-right: 50px;
+        }
+        
+        .nav_left{
+            float: left;
+            font-family: Interstate,Lucida Grande,Arial,sans-serif;
+            padding:12px;
+        }
+        
+        .nav_middle{
+            float:left;
+            width: 330px;
+            padding-right: 50px;
+            font-family: Interstate,Lucida Grande,Arial,sans-serif;
+            padding:12px;
+        }
+        
+        .nav_search{
+            width:255px;
+        }
+
+        .nav_right{
+            color: white;
+            float: right;
+            padding-right: 50px;
+            font-family: Interstate,Lucida Grande,Arial,sans-serif;
+            padding:12px;
+            
+        }
+        .nav_right_upload{
+            color: white;
+            padding-right: 50px;
+        }
+        .sign_in{
+            padding-right: 50px;
+        }
+        
+        .create_account{
+            padding-right: 50px;
+        }
+        .nav_right_dropdown{
+            width: 20px;
+            height: 20px;
+            
+        }
+    /*body에 대한 코드*/
+        .square1 {
+            padding-right: 20px;
+            float: left;
+        }
+        .square2{
+            padding-right: 20px;
+            float: left;
+        }
+        .square3{
+            padding-right: 20px;
+            float: left;
+        }
+    
+        .charts_img{
+            width: 172.969px;
+            height: 172.969px;
+        }
+        .content-container{
+            margin-left: 331.500px;
+            margin-right: 331.500px;
+            margin-bottom: 100px;
+            
+        }
+        .box{
+            width:64%;
+            font-family: Interstate,Lucida Grande,Arial,sans-serif;
+        }
+        
+        .sidebar{
+            float: right;
+            border: 1px solid black;
+            width: 430px;
+            height:2925.75px;
+            background-color: white;
+
+        }
+        .line1{
+            color: #ccc;
+            font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+            font:12px;
+        }
+        .line2{
+            color: #38d;
+            font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+            font:12px;
+        }
+        .line3{
+            color: #333333;
+            font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+            font:12px;
+        }
+    </style>
+</head>
+<body>
+    <div class ="container">
+    <!--nav바에 대한 코드-->
+        <div class = "nav-container">
+            <div class = "nav_left">
+                <div class= "nav_logo_left">
+                    <a class ="nav_logo_left1" href="https://soundcloud.com/">SoundCloud</a>
+                    <a class ="nav_list1" href="https://soundcloud.com/discover">Home</a>
+                    <a class ="nav_list" href="https://soundcloud.com/signin?redirect_url=/stream">Stream</a>
+                    <a class ="nav_list" href="https://soundcloud.com/signin?redirect_url=/you/library">Library</a>
+                </div>
+            </div>
+            <div class = "nav_middle">
+                <form class="nav_Search">
+                    <input class ="nav_search">
+                    <button class ="nav_serach_submit" type="submit">Search</button>
+                </form>
+            </div>
+            <div class = "nav_right">
+                <div class = "nav_right_loginMenu">
+                    <button class= sign_in type="button">Sign in</button>
+                    <button class= create_account type="button">Create Account</button>
+                    <a class="nav_right_upload" href="https://soundcloud.com/upload" tabindex="0">Upload</a>
+                    <img class ="nav_right_dropdown" href="https://soundcloud.com/discover" src ="https://w7.pngwing.com/pngs/196/478/png-transparent-hamburger-button-computer-icons-drop-down-list-menu-angle-food-text.png">
+                </div>
+            </div>
+        </div>
+    <!--body에 대한 코드-->
+        <div class = "content-container">
+            <!--sidebar-->
+            <div class ="sidebar">
+                <ul>
+                    <a class="line1" href="https://soundcloud.com/terms-of-use">Legal</a>
+                    <a class="line1" href="https://soundcloud.com/pages/privacy">Privacy</a>
+                    <a class="line1" href="https://soundcloud.com/pages/cookies">Cookie Policy</a>
+                    <a class="line1" href="https://soundcloud.com/discover#">Cookie Manager</a>
+                </ul>
+                <ul>
+                    <a class="line1" href="https://soundcloud.com/imprint">Imprint</a>
+                    <a class="line1" href="https://community.soundcloud.com/">Creator Resources</a>
+                    <a class="line1" href="https://blog.soundcloud.com/">Blog</a>
+                    <a class="line1" href="https://soundcloud.com/charts/top">Charts</a>
+                </ul>
+                <ul>
+                    <a class="line2">Language</a>
+                    <a class="line3">English(US)</a>
+                </ul>
+            </div>
+            <!--charts:Top50-->
+            <div class ="content-container1">
+                <div class = "box">
+                    <h1>Charts: Top 50</h1>
+                    <p>The most played tracks on SoundCloud this week</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://image.bugsm.co.kr/album/images/500/40448/4044879.jpg">
+                        <h4>All music genres</h4>
+                        <p>Top 50</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://image.bugsm.co.kr/album/images/500/40448/4044879.jpg">
+                        <h4>Global Beats</h4>
+                        <p>Top 50</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="http://img.etnews.com/news/article/2021/06/28/cms_temp_article_28135411026930.jpg">
+                        <h4>Hip-hop & Rap</h4>
+                        <p>Top 50</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://images.genius.com/605163faee822e5f66d6b9c26ef11f5e.1000x1000x1.jpg">
+                        <h4>Pop</h4>
+                        <p>Top 50</p>
+                    </div>
+                </div>
+            </div>
+            <!--charts:New&hot-->
+            <div class ="content-container2">
+                <div class = "box">
+                    <h1>Charts:New & hot</h1>
+                    <p>Up-and-coming tracks on SoundCloud</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="http://img.etnews.com/news/article/2021/06/28/cms_temp_article_28135411026930.jpg">
+                        <h4>All music genres</h4>
+                        <p>New & hot</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-Ffx8OIXeU3sqyqDU-p6Gyzw-t500x500.jpg">
+                        <h4>Global Beats</h4>
+                        <p>New & hot</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="http://img.etnews.com/news/article/2021/06/28/cms_temp_article_28135411026930.jpg">
+                        <h4>Hip-hop & Rap</h4>
+                        <p>New & hot</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://file.mk.co.kr/meet/thefact/2021/06/image_readtop_2021_615514_1870698_0.jpg">
+                        <h4>Pop</h4>
+                        <p>New & hot</p>
+                    </div>
+                </div>
+            </div>
+            <!--Study-->
+            <div class ="content-container3">
+                <div class = "box">
+                    <h1>Study</h1>
+                    <p>Popular playlists from the SoundCloud community</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000075046140-457jdg-t500x500.jpg">
+                        <h4>Piano Deep Conc</h4>
+                        <p>Nitza Md</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000133776884-hooelb-t500x500.jpg">
+                        <h4>Read more, Writ</h4>
+                        <p>Ulana</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000208627636-q5rfpn-t500x500.jpg">
+                        <h4>lofi 4 studying</h4>
+                        <p>suri</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000147477275-my3dmh-t500x500.jpg">
+                        <h4>Stella's Coffee</h4>
+                        <p>Mah</p>
+                    </div>
+                </div>
+            </div>
+            <!--Chill-->
+            <div class ="content-container4">
+                <div class = "box">
+                    <h1>Chill</h1>
+                    <p>Popular playlists from the SoundCloud community</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000497390646-w8kzyn-t500x500.jpg">
+                        <h4>jazzhip7</h4>
+                        <p>soo</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000199168988-5gscg5-t500x500.jpg">
+                        <h4>Emotive 10(chill</h4>
+                        <p>Ric</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000361848372-jfpz0p-t500x500.jpg">
+                        <h4>Never Chill Before</h4>
+                        <p>Pineapple Express</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000405464955-n4ge52-t500x500.jpg">
+                        <h4>Morning chillout</h4>
+                        <p>Mighty</p>
+                    </div>
+                </div>
+            </div>
+            <!--Party-->
+            <div class ="content-container5">
+                <div class = "box">
+                    <h1>Party</h1>
+                    <p>Popular playlists from the SoundCloud community</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://cdn.producerloops.com//images/thumbs/42177/prod_img_42177_600x600%5E95+1535603618.jpg">
+                        <h4>T-4 Techno</h4>
+                        <p>Westcoast Radio</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/avatars-000070992862-42dhap-t500x500.jpg">
+                        <h4>EDM remixes of</h4>
+                        <p>Austin24heck</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000658429759-jlcwkd-t500x500.jpg">
+                        <h4>Best of House M</h4>
+                        <p>Westcoast Radio</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000359931777-whjnlr-t500x500.jpg">
+                        <h4>Best of Deep</h4>
+                        <p>Westcoast Radio</p>
+                    </div>
+                </div>
+            </div> 
+            <!--Relax-->
+            <div class ="content-container6">
+                <div class = "box">
+                    <h1>Relax</h1>
+                    <p>Popular playlists from the SoundCloud community</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000460771251-gz2ony-t200x200.jpg">
+                        <h4>chilling</h4>
+                        <p>A2gis</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000405464955-n4ge52-t500x500.jpg">
+                        <h4>Morning Chillout</h4>
+                        <p>Mighty</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000497390646-w8kzyn-t500x500.jpg">
+                        <h4>jazzhip7</h4>
+                        <p>soo</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000102883401-dj4tby-t500x500.jpg">
+                        <h4>meditation</h4>
+                        <p>Rehan Khan 55</p>
+                    </div>
+                </div>
+            </div>          
+            <!--Sleep-->
+            <div class ="content-container7">
+                <div class = "box">
+                    <h1>Sleep</h1>
+                    <p>Popular playlists from the SoundCloud community</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000104946156-2z0ezc-t500x500.jpg">
+                        <h4>Billies Sleep</h4>
+                        <p>Billes</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t500x500.jpg">
+                        <h4>Summer Nights</h4>
+                        <p>serene</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000118815345-eap7vz-t500x500.jpg">
+                        <h4>listen</h4>
+                        <p>Rayna Rose</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000107899443-qxcwl0-t500x500.jpg">
+                        <h4>Sleep healing so</h4>
+                        <p>Jean Claude 5</p>
+                    </div>
+                </div>
+            </div>
+            <!--Workout-->
+            <div class ="content-container8">
+                <div class = "box">
+                    <h1>Workout</h1>
+                    <p>Popular playlists from the SoundCloud community</p>
+                    <div class = "square1">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000068787214-gvxmhp-t500x500.jpg">
+                        <h4>Best Progressive</h4>
+                        <p>Westcoast Radio</p>
+                    </div>
+                    <div class = "square2">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000531637797-9o8925-t500x500.jpg">
+                        <h4>#Workout</h4>
+                        <p>Tere Mancha</p>
+                    </div>
+                    <div class = "square3">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000429778488-g2yoti-t500x500.jpg">
+                        <h4>Workout 2018</h4>
+                        <p>Playlists Daily</p>
+                    </div>
+                    <div class = "square4">
+                        <img class ="charts_img" src="https://i1.sndcdn.com/artworks-000359931777-whjnlr-t500x500.jpg">
+                        <h4>Best of Deep</h4>
+                        <p>Westcoast Radio</p>
+                    </div>
+                </div>
+            </div>                
+        </div>
+            
+            
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+</body>
+</html>
